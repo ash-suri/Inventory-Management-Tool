@@ -1,0 +1,94 @@
+/* [PAGE] */
+html, body {
+  font-family: arial;
+}
+h1 {
+  margin: 0;
+}
+.zebra {
+  width: 100%;
+  border-collapse: collapse;
+}
+.zebra tr:nth-child(odd) {
+    background-color: #f2f2f2
+}
+.zebra td {
+  padding: 10px;
+}
+
+/* [FORMS] */
+button, input[type=button], input[type=submit], select {
+  padding: 10px;
+  margin: 5px;
+  font-size: 0.9em;
+  box-sizing: border-box;
+}
+button, input[type=button], input[type=submit] {
+  border: 0;
+  background: #A51818;
+  color: #fff;
+}
+label {
+  margin: 5px;
+}
+input[type=text], input[type=email], input[type=number], textarea {
+  padding: 5px;
+  display: block;
+}
+
+/* [STOCK TABLE] */
+.i-stock {
+  width: 80px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #C44545;
+  text-align: center;
+}
+.i-name {
+  font-weight: bold;
+}
+.i-desc {
+  color: #555;
+  font-size: 0.9em;
+}
+.i-action {
+  text-align: right;
+}
+
+/* [STOCK MOVEMENT FORM] */
+#mvt_form {
+  min-width: 200px;
+  max-width: 300px;
+  background: #f2f2f2;
+  padding: 10px;
+  margin: 10px;
+}
+#mvt_form input[type=number], #mvt_form input[type=text], #mvt_form select{
+  width: 90%;
+}
+
+/* [STOCK MOVEMENT TABLE] */
+.mvt-stock {
+  width: 80px;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+.mvt-i .mvt-stock {
+  color: #3C8C32;
+}
+.mvt-o .mvt-stock {
+  color: #C31C1C;
+}
+.mvt-s .mvt-stock {
+  color: #2F61B9;
+}
+.mvt-i p {
+  background: #CAFFD8;
+}
+.mvt-o p {
+  background: #FFCACA;
+}
+.mvt-s p {
+  background: #CAFFFF;
+}
